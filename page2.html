@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline HTML Elements; Introduction to CSS</title>
+    <style>
+        div{
+            margin: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        span{
+            text-decoration: line-through;
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <!--using block elements-->
+    <!--<div> tag-->
+    <div style="background-color: rgb(134, 165, 238);">
+        div 1
+    </div>
+    <div style="background-color: rgb(168, 184, 221);">
+        div 2
+    </div>
+    <hr>
+    <div style="background-color: rgb(181, 195, 223);"> <!--nested div-->
+        root 
+        <div>
+            div 1
+            <div>div 1a</div>
+            <div>div 1b</div>
+        </div>
+        <div>div 2</div>
+    </div>
+
+    <p>
+        abcdef<span>ghijklmnop</span>qrstuvwxyz
+    </p>
+    <hr>
+    <a href="index.html">main page</a>
+    <a href="page3.html">page3</a>
+</body>
+</html>
